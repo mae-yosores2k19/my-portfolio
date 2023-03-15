@@ -1,0 +1,111 @@
+
+.contact{
+    margin: 5% 10% 5% 10%;
+}
+.contact-wrapper{
+    /* margin: 2% 10% 10% 10%; */
+    background-color:var(--secondary);
+}
+#hr-contact{
+    width: 160px;
+    margin-top:-20px;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5% 5% 0% 5%;
+    /* min-height: 64vh; */
+    text-align: center;
+}
+.way-to-contact{
+    display: grid;
+    grid-template-columns: 8ch auto;
+    margin-left: 9%;
+    text-align: justify;
+    margin-bottom:40%;
+}
+.sp-icon{
+    /* background-color: var(--secondary); */
+    color:var(--primary);
+    /* padding:6% 6% 10% 6%; */
+    margin-left:5px;
+}
+.wt-icon{
+    font-size:xx-large;
+    margin-top: 15px;
+    margin-bottom: -13px;
+}
+.contact-detail{
+    margin-top: 4px;
+}
+.contact-detail[type=text]:focus{
+    outline: none;
+}
+.contact-info{
+    border:none;
+    background-color: var(--tertiary);
+    padding-left:17px;
+    height: 50px;
+    width:97%;
+    margin-left: -10%
+}
+::placeholder{
+    color: var(--primary);
+    font-family: Sansita;
+    font-weight: 300;
+}
+textarea {
+    width: 100%;
+    height: 31%;
+    margin-left: -10%;
+    padding: 7px 3px;
+    background-color: var(--tertiary);
+    resize: none;
+  }
+  .contact-button {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Sansita';
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  .contact-button:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .contact-button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .contact-button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }  
+        
+        
+        

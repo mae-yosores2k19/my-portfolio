@@ -1,0 +1,28 @@
+#wrapper {
+    background-image: var(--background-color);
+    margin: 5% 10% 5% 10%
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 16px;
+    /* text-align: center;/ */
+    justify-content: space-evenly;
+    margin: 5% 10% 5% 10%;
+}
+
+#skills {
+    width: 120px;
+    margin-top: -20px
+}
+
+.logo {
+    width: 160px;
+    height: 130px;
+    margin:2% 0 2% 0;
+}
+
+/* .logoGQ{
+    width: 180px;
+} */

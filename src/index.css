@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary: #33acf2;
+  --background-color: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  --secondary:#8784847d;
+  --tertiary:#ffffffe0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Sansita';
+  letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
